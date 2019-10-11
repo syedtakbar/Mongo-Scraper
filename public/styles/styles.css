@@ -1,0 +1,68 @@
+body {
+  background: url("/img/newspaper_texture2847.jpg") repeat center fixed;
+  color: white;
+  background-size: cover;
+  height: 40%;
+}
+
+.jumbotron {
+  background: rgba(0, 0, 0, 0);
+}
+
+.modal {
+  color: black;
+}
+
+#listItem {
+  padding:1%;
+  margin: 1%
+}
+
+#commentsList {
+  padding:1%;
+  margin: 1%
+}
+
+.article,
+.container {
+  padding: 5%;
+  margin: 5%;
+  background: rgba(86, 101, 115, 0.6);
+  height: 100%;
+  border-radius: 0.25rem;
+  margin-bottom: 2%;
+  text-align: left;
+  border-radius: 2%;
+
+}
+
+.btn {
+  border-radius: 4%;
+}
+
+.btn:hover{
+	color: darkblue;
+}
+
+[data-clear="true"] {
+  color: white !important;
+}
+[data-home="true"] {
+  color: white !important;
+}
+[data-scrape="true"] {
+  color: white !important;
+}
+[data-saved="true"] {
+  color: white !important;
+}
+
+
+.headline {
+	font-size: 30px;
+	color: black;
+}
+
+.headline:hover{
+	color: red;
+}

@@ -1,0 +1,15 @@
+{{> nav/nav-block home=false scrape=false clear=false saved=true title="WSJ Scraper - Saved Article(s)"}}
+
+
+<div class="jumbotron jumbotron-fluid"></div>
+
+{{#each articles}}
+    {{> article/article-block}}
+{{else}}
+    <div class="article"> 
+        <h1>No Data To Display</h1>
+    <div/>
+{{/each}}
+
+
+{{> modal/comments-block}}
